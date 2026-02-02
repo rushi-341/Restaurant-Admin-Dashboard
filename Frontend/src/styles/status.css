@@ -1,0 +1,30 @@
+.status {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.25s ease;
+}
+
+/* AVAILABLE → GREEN */
+.status.available {
+  background-color: #e6f7ee;
+  color: #0f9d58;
+}
+
+.status.available:hover {
+  background-color: #c8f0dc;
+}
+
+/* UNAVAILABLE → RED */
+.status.unavailable {
+  background-color: #fdecea;
+  color: #d93025;
+}
+
+.status.unavailable:hover {
+  background-color: #f9cfc9;
+}

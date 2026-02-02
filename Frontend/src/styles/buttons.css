@@ -1,0 +1,33 @@
+button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #e5e7eb;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status.available {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status.unavailable {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
